@@ -35,7 +35,7 @@ export default function Details () {
 
     return (
         <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={card.image} />
+            <Card.Img variant="top" src={card.image} style={{objectFit:"cover", width: '18rem', height:"15vh"}}/>
             <Card.Body>
             <Card.Title>{card.title}</Card.Title>
             <Card.Text>{card.description}</Card.Text>
